@@ -1,7 +1,8 @@
 # Task: Create flow & UI where (1) user iteratively generates integers (2) each integer stored to one list 
-#       (3) median for each list iteration is calculated (4) chart of each calculated median is plotted
-# We use heapq package (balanced binary tree search!) to work with heaps to minimize runtime as: O(1) for getMedain and O(logN) for appendNum() method
-# using streamlit to create simple UI
+# (3) median for each list iteration is calculated (4) chart of each calculated median is plotted
+###########################################################################################################################
+# Using heapq package (balanced binary tree search!) to minimize runtime as: O(1) for getMedain and O(logN) for appendNum() method
+# Using streamlit to create simple UI
 import streamlit as st 
 import heapq
 
